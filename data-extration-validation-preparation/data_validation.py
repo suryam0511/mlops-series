@@ -11,7 +11,6 @@ print("Missing Values:\n", missing_values)
 outliers = data_with_issues[(data_with_issues['age'] > 100) | (data_with_issues['age'] < 0)]
 print("Outliers:\n", outliers)
 
-#Overflow
 # Basic schema validation
 print("Data Types:\n", data_with_issues.dtypes)
 
